@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+ 
+<title>Gâteaux délicieux</title>
+ 
+<style>
+     
+
+body {
+ 
+font-family: Arial, sans-serif;
+ 
+margin: 0;
+ 
+padding: 0;
+
+}
+
+
+header {
+
+ border-bottom: 4px solid #666;
+ top: 0; background-color: #000;
+
+ color: #fff;
+ padding: 20px;
+
+  text-align: center;
+
+}
+
+
+nav ul {
+ 
+list-style: none;
+
+ margin: 0;
+
+ padding: 0;
+
+ display: flex;
+
+ justify-content:
+ space-between;
+
+}
+
+
+nav li {
+ 
+margin-right: 20px;
+
+}
+
+
+nav a {
+
+ color: aqua;
+
+ text-decoration: none;
+
+}
+
+
+section {
+
+ padding: 20px;
+
+}
+
+
+
+#gâteaux {
+
+ background-color: #f7f7f7;
+
+}
+
+
+.gâteaux {
+
+ display: flex;
+
+ flex-wrap: wrap;
+
+ justify-content: center;
+}
+
+
+.gâteau {
+
+ margin: 20px;
+
+ width: 200px;
+
+ 
+}
+
+
+
+
+.gâteau h2 {
+
+ font-size: 18px;
+
+ margin-top: 10px;
+
+}
+
+
+.gâteau p {
+
+ font-size: 14px;
+
+ margin-bottom: 10px;
+
+}
+
+
+button {
+
+ background-color: #333;
+
+ color: #fff;
+
+ border: none;
+
+ padding: 10px 20px;
+
+ font-size: 16px;
+
+ cursor: pointer;
+
+}
+
+
+button:hover {
+
+ background-color: #555;
+
+}
+
+
+footer {
+
+ background-color: #333;
+
+ color: #fff;
+
+ padding: 10px;
+
+ text-align: center;
+
+ clear: both;
+
+}
+
+
+
+.container{
+
+ 
+ background: blue;
+ width: 100%;
+ max-width: 200px;
+ display: flex;
+ padding: 10px;
+ Overflow-X: auto;
+ scroll-snap-type: X mandatory;
+
+   border-radius: 10px;
+
+    position: relative;
+
+}
+
+.item{
+
+ flex: 0 0 100px;
+ scroll-snap-align: star;
+
+ margin-right: 10px;
+  border-radius: 20px;
+ background-color: green;
+ color: white;
+
+}
+
+
+.item img{
+   
+ width: 100%;
+   
+ height: 100%;
+
+ border-radius: 10px;
+ object-fit: cover;
+
+}
+
+.masquer {
+   
+ display: none;
+
+}
+ 
+
+/* Style pour le formulaire */
+
+ form {
+
+ width: 50%;
+
+ margin: 40px auto;
+
+ padding: 20px;
+
+ border: 1px solid #ccc;
+
+ border-radius: 10px;
+
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+ }
+
+
+ label {
+
+ display: block;
+
+ margin-bottom: 10px;
+
+ }
+
+
+textarea {
+
+ width: 90%;
+
+ height: 40px;
+
+ padding: 10px;
+ margin-bottom: 20px;
+
+ border: 1px solid #ccc;
+
+align-text: center;
+display: flex;
+justify-content: center;
+}
+ button {
+
+ width: 100%;
+
+ height: auto;
+
+ background-color: #4CAF50;
+
+ color: #fff;
+
+ padding: 10px;
+
+ border: none;
+
+ border-radius: 10px;
+
+ cursor: pointer;
+
+ }
+
+
+ button:hover {
+
+ background-color: #3e8e41;
+
+ }
+
+
+</style>
+
+</head>
+
+<body>
+ 
+<header>
+ 
+<nav>
+ 
+<ul>
+
+ <li><a href="#accueil">Accueil</a></li>
+
+ <li><a href="#gâteaux">Gâteaux</a></li>
+
+ <li><a href="#contact">Contact</a></li>
+
+ </ul>
+ 
+</nav>
+ 
+</header>
+
+ <section id="accueil">
+
+ <h1>Bienvenue chez Gâteaux délicieux</h1>
+ 
+<p>Nous proposons une variété de gâteaux délicieux pour tous les goûts et les occasions.</p>
+
+ </section>
+ <section id="gâteaux">
+
+ <h1>Nos gâteaux</h1>
+ 
+<div class="gâteaux">
+
+ <div class="gâteau">
+  
+ <div class="container">
+       
+ <div class="item">
+ <img src="gâteauChocolat.jpg" alt="Gâteau au chocolat">
+
+ </div>
+ 
+<div class="item">
+ <img src="gâteauChocolat1.jpg" alt="Gâteau au chocolat">
+ 
+</div>
+
+ <div class="item">
+ <img src="gâteauChocolat2.jpg" alt="Gâteau au chocolat">
+
+ </div>
+
+ </div>
+ 
+<h2><a href="Chocolat.html">Gâteau au chocolat</a></h2>
+ 
+<p>Un gâteau riche et délicieux au chocolat.</p>
+ 
+<p>Prix : 0 CFA</p>
+ 
+<button>Ajouter au panier</button>
+
+ 
+
+ </div>
+ 
+ <div class="gâteau">
+
+ <div class="container">
+
+<div class="item">
+<img src="gâteauFruit.jpg" alt="Gâteau au chocolat">
+
+</div>
+
+ <div class="item">
+<img src="gâteauFruit.jpg" alt="Gâteau au chocolat">
+
+</div>
+<div class="item">
+<img src="gâteauFruit.jpg" alt="Gâteau au chocolat">
+
+</div>
+ </div>
+ 
+<h2><a href="Fruit.html">Gâteau aux fruits</a></h2>
+ 
+<p>Un gâteau léger et délicieux aux fruits.</p>
+ 
+<p>Prix : 0 CFA</p>
+ 
+<button>Ajouter au panier</button>
+
+ </div>
+ 
+ <div class="gâteau">
+
+  <div class="container">
+
+<div class="item">
+<img src="gâteauVanille.jpg" alt="Gâteau au chocolat">
+
+</div>
+
+ <div class="item">
+<img src="gâteauVanille1.jpg" alt="Gâteau au chocolat">
+
+</div>
+<div class="item">
+<img src="gâteauvanille.jpg" alt="Gâteau au chocolat">
+
+</div>
+ </div>
+ 
+<h2><a href="Vanille.html">Gâteau à la vanille</a></h2>
+ 
+<p>Un gâteau classique et délicieux à la vanille.</p>
+ 
+<p>Prix : 0 CFA</p>
+ 
+<button>Ajouter au panier</button>
+ 
+
+
+ </div>
+ 
+ </div>
+  
+
+ </section>
+
+ <section id="contact">
+ 
+<h1>Contact</h1>
+
+ <p>Pour toute question ou commande, veuillez nous contacter à l'adresse suivante :
+</p>
+ <p>gâteauxdélicieux@gmail.com</p>
+ <p>Ou par téléphone au :
+</p>
+ <p>6 91 03 25 26</p>
+
+ <form>
+
+  <label for="message">Message :</label>
+
+ <textarea id="message" name="message" placeholder="Entrez..."required>
+</textarea>
+
+
+ <button id="partager">Envoyez via WhatsApp</button>
+
+ </form>
+
+
+ </section>
+ 
+<section id="panier" class="masquer">
+
+ <h1>Panier</h1>
+ 
+<button id="fermer-panier">Fermer</button>
+
+ <div id="contenu-panier">
+</div>
+
+</section>
+ 
+<footer>
+
+ <p>&copy; 2025 Gâteaux délicieux</p>
+ 
+</footer>
+ 
+<script>
+function ajouterAuPanier() {
+    
+
+    const gateau = document.querySelector('.gateau');
+
+    const nomGateau = gateau.querySelector('h2').textContent;
+
+    const prixGateau = gateau.querySelector('p:nth-child(3)').textContent;
+
+    const contenuPanier = document.querySelector('#contenu-panier');
+
+    contenuPanier.innerHTML += `<p>${nomGateau} - ${prixGateau}</p>`;
+
+    document.querySelector('#panier').classList.remove('masquer');
+}
+
+
+function fermerPanier() {
+
+    document.querySelector('#panier').classList.add('masquer');
+}
+
+document.querySelectorAll(".gâteau button").forEach((bouton) => {
+
+    bouton.addEventListener("click", function () {
+
+        let gateau = this.closest(".gâteau");
+
+        let nomGateau = gateau.querySelector("h2").textContent;
+
+        let prixGateau = gateau.querySelector("p:nth-of-type(2)").textContent;
+
+        
+        let contenuPanier = document.querySelector("#contenu-panier");
+
+        contenuPanier.innerHTML += `<p>${nomGateau} - ${prixGateau}</p>`;
+
+        
+        document.querySelector("#panier").classList.remove("masquer");
+
+        
+    });
+
+});
+
+
+document.querySelector("#fermer-panier").addEventListener("click", function () {
+
+    document.querySelector("#panier").classList.add("masquer");
+
+});
+
+
+// Récupération des éléments du formulaire
+
+ const form = document.querySelector('form');
+
+ const nom = document.querySelector('#nom');
+
+ const telephone = +237691032526;
+
+ const message = document.querySelector('#message');
+
+ const partager = document.querySelector('#partager');
+
+
+ // Événement pour le bouton Partager
+ 
+partager.addEventListener('click', (e) => {
+
+ e.preventDefault();
+
+ const url = `https://wa.me/${telephone}?text=${message.value}`;
+
+ window.open(url, '_blank');
+
+ });
+ 
+    </script>
+
+</body>
+
+</html> 
